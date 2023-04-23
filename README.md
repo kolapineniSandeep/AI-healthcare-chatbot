@@ -50,6 +50,8 @@ _________________________________________________________________
 
 ## How to run the application
 ### Backend
+To run the application, install all required dependencies and create SMTP API key for mail communication 
+
 Build the docker image 
 ```
 docker build -t ai-bot:1.0 .
@@ -58,7 +60,6 @@ docker build -t ai-bot:1.0 .
 Run docker image 
 ```
 docker run -p 5001:5001 ai-bot:1.0
-
 
 ```
 
